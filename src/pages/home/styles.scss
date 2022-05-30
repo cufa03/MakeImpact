@@ -1,0 +1,10 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	padding: 16px;
+	.home__content {
+		flex: 1;
+	}
+}

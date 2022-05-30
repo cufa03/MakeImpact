@@ -1,0 +1,22 @@
+.category__container {
+	margin: 25px 0;
+	.category__text {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		:first-child {
+			color: #0a0a14;
+			font-size: 18px;
+			font-weight: 600;
+		}
+		:nth-child(2) {
+			font-size: 12px;
+			font-weight: 500;
+			color: #646467;
+		}
+	}
+	.items {
+		display: flex;
+	}
+}

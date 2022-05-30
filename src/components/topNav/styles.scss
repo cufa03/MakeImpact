@@ -1,0 +1,20 @@
+.nav__container {
+	display: flex;
+	justify-content: center;
+	background-color: #f2f2f4;
+	border-radius: 22px;
+	padding: 0;
+	width: 80%;
+	margin: 25px auto auto auto;
+	div {
+		font-size: 12px;
+		padding: 10px 14px 11px;
+		color: #646467;
+	}
+	.active {
+		background-color: #303037;
+		color: #fafafd;
+		border-radius: 22px;
+		margin: 0 22px;
+	}
+}

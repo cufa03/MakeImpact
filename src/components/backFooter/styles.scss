@@ -1,0 +1,21 @@
+.backFooter__container {
+	display: flex;
+	align-items: center;
+	box-shadow: 0 -2px 8px 0 rgba(10, 10, 20, 0.1);
+	background-color: #fafafd;
+	width: 100vw;
+	padding: 16px 0 38px 16px;
+	div {
+		padding: 0 4.5px 0 4.5px;
+	}
+	div:nth-child(1) {
+		color: #0a0a14;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	div:nth-child(2) {
+		color: #0a0a14;
+		font-size: 14px;
+		font-weight: 500;
+	}
+}

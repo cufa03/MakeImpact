@@ -1,0 +1,25 @@
+.sector__item__container {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 12px;
+}
+.sector__item__container img {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(10, 10, 19, 0.16);
+  margin-bottom: 4px;
+}
+.sector__item__container :nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a0a14;
+}
+.sector__item__container :nth-child(2) :nth-child(1) {
+  width: 125px;
+}/*# sourceMappingURL=styles.css.map */

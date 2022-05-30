@@ -1,0 +1,80 @@
+[
+	{
+		"id": 1,
+		"company": "Vestas",
+		"price": "24,26$",
+		"category": "() Biodiversity"
+	},
+	{
+		"id": 2,
+		"company": "Chr. Hansen",
+		"price": "73$",
+		"category": "() Biodiversity"
+	},
+	{
+		"id": 3,
+		"company": "Autodesk",
+		"price": "38,63$",
+		"category": "() Biodiversity"
+	},
+	{
+		"id": 4,
+		"company": "Novo Nordisk",
+		"price": "108,26$",
+		"category": "() Diversity & Inclusion"
+	},
+	{
+		"id": 5,
+		"company": "Axa",
+		"price": "34,98$",
+		"category": "() Diversity & Inclusion"
+	},
+	{
+		"id": 6,
+		"company": "HP Inc.",
+		"price": "62,47$",
+		"category": "() Diversity & Inclusion"
+	},
+	{
+		"id": 7,
+		"company": "Danone",
+		"price": "134,69$",
+		"category": "() Health & Safety"
+	},
+	{
+		"id": 8,
+		"company": "Chr. Hansen",
+		"price": "17,60$",
+		"category": "() Health & Safety"
+	},
+	{
+		"id": 9,
+		"company": "Ajinomoto",
+		"price": "82,69$",
+		"category": "() Social & Media"
+	},
+	{
+		"id": 10,
+		"company": "Coloplast",
+		"price": "26,53$",
+		"category": "() Social & Media"
+	},
+	{
+		"id": 11,
+		"company": "Novo Nordisk",
+		"price": "108,26$",
+		"category": "() Executive Pay"
+	},
+	{
+		"id": 12,
+		"company": "Axa",
+		"price": "34,98$",
+		"category": "() Executive Pay"
+	},
+	{
+		"id": 13,
+		"company": "HP Inc.",
+		"price": "62,47$",
+		"category": "() Executive Pay"
+	}
+]

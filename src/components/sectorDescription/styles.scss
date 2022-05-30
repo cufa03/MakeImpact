@@ -1,0 +1,46 @@
+.description__container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	position: relative;
+	.bg-image {
+		background-image: url(../../assets/alternativeEnergy.jpeg);
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		filter: blur(10px);
+		div {
+			background-color: rgba(0, 0, 0, 0.205);
+			z-index: 2;
+			position: absolute;
+			width: 100%;
+			height: 50%;
+		}
+	}
+
+	.description__container__text {
+		background-color: #ffffff;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		padding: 51px 16px 0 16px;
+		position: absolute;
+		bottom: 0;
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: space-between;
+		min-height: 60%;
+		line-height: 2.5;
+		p {
+			line-height: 1.42;
+			letter-spacing: 0.5px;
+			font-size: 12px;
+			font-weight: 500;
+		}
+		:nth-child(3) {
+			width: fit-content;
+			text-align: center;
+			margin: 100px auto;
+		}
+	}
+}

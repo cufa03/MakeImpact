@@ -1,0 +1,17 @@
+.sectors__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sectors__container h2 {
+  text-align: center;
+  padding: 11px 0 9px 0;
+  font-weight: 600;
+  color: #0a0a14;
+}
+.sectors__container :nth-child(2) {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=styles.css.map */
