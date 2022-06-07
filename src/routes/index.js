@@ -4,6 +4,7 @@ import Sectors from '../pages/sectors';
 import Sector from '../pages/sector';
 import SectorDescription from '../components/sectorDescription';
 import SectorCompanies from '../components/sectorCompanies';
+import NewPage from '../components/newPage';
 const AppRoutes = () => {
 	return (
 		<BrowserRouter>
@@ -15,6 +16,7 @@ const AppRoutes = () => {
 				<Route path="sectors" element={<Sectors />} />
 				<Route path="description" element={<SectorDescription />} />
 				<Route path="sectorCompanies" element={<SectorCompanies />} />
+				<Route path="newPage" element={<NewPage />} />
 			</Routes>
 		</BrowserRouter>
 	);
