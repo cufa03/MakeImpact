@@ -1,0 +1,15 @@
+.new__swipe__container {
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 1rem;
+}
+.new__swipe__container .slide__btn__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.new__swipe__container .check {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */

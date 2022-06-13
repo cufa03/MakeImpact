@@ -1,0 +1,17 @@
+.new__swipe__container {
+	margin: 0;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	gap: 1rem;
+	.slide__btn__wrapper {
+		display: flex;
+		justify-content: center;
+	}
+	.check {
+		display: none;
+	}
+	// .uncheck {
+	// }
+}

@@ -1,11 +1,8 @@
 import React from 'react';
 import './styles.css';
-const NewPage = () => {
-	const testing = () => {
-		console.log('swipe confirm');
-	};
+const OldSwipe = () => {
 	const handleBackground = (event) => {
-		console.log(event.target.class);
+		console.log(event.target);
 	};
 	return (
 		<div>
@@ -14,7 +11,7 @@ const NewPage = () => {
 			</div>
 			<div id="button-background" onClick={handleBackground}>
 				<span class="slide-text">Swipe</span>
-				<div id="slider" onMouseDown={testing}>
+				<div id="slider">
 					<i id="locker" class="material-icons">
 						lock
 					</i>
@@ -24,4 +21,4 @@ const NewPage = () => {
 	);
 };
 
-export default NewPage;
+export default OldSwipe;
